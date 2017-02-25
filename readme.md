@@ -27,3 +27,9 @@
 `RUN make install`
 
 `RUN rm sqlite-autoconf-3170000.tar.gz`
+
+## Installation / Running
+
+`docker pull vdm13/sqlite3`
+
+`docker run -d -it vdm13/sqlite3 /bin/sh`
