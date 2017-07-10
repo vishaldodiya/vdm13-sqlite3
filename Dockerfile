@@ -14,4 +14,4 @@ RUN make install
 
 RUN rm sqlite-autoconf-3170000.tar.gz
 
-CMD echo "Sqlite 3 container Build"
+CMD sqlite3
